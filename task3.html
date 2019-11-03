@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat</title>
+</head>
+<body>
+	<fieldset>
+                <legend>Форма обратной связи</legend>
+                <form method="POST">
+                    <p><sup>*</sup> ВАШЕ ИМЯ:<input type="text" name="name" value="" maxlength="10" placeholder="Ваше имя"></p>
+                    <p><sup>*</sup>ВАША ФАМИЛИЯ:<input type="text" name="surname" value="" maxlength="20" placeholder="Ваша фамилия"></p>
+                    <p><sup>*</sup>ВАШ EMAIL:<input type="email" name="email" value="" required="@" placeholder="Ваша почта"></p>
+                    <p><font face="Tahoma">ВЫБЕРИТЕ ТЕМУ ПИСЬМА И НАПИШИТЕ ВАШЕ СООБЩЕНИЕ</font></p>
+                
+                <p>ТЕМА ПИСЬМА:
+                    <select>
+                        <option disabled="disabled">Выберите вопрос</option>
+                        <option>Финансовые вопросы</option>
+                        <option>Технические вопросы</option>
+                        <option>Вопросы подключения</option>
+                        <option>Вопроссы доставки</option>
+                        <option>Вопросы возврата</option>
+                    </select>
+                </p>
+                <p>СООБЩЕНИЕ:</p>
+                <p><textarea name="message" rows="5" cols="50"></textarea></p>
+                <div style="margin-top: 16px">
+                <input type="submit" name="Submite">
+                <input type="reset" name="Reset">
+                </div>
+
+                       
+                </form>
+            </fieldset>
+            
+             <p>
+                
+                <table border="2px" align="center">
+                        <tr>
+                            <td rowspan="2"><strong>Команды</strong></td>
+                            <td colspan="6"><strong>Баллы</strong></td>
+                            <td colspan="6"><strong>Места</strong></td>
+                        </tr>
+        
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>сумма</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>общее</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>г.Иркутск, лицей ИГУ</td>
+                            <td>12</td>
+                            <td>18,7</td>
+                            <td>45</td>
+                            <td>30,5</td>
+                            <td>45</td>
+                            <td>151</td>
+                            <td></td>
+                            <td>I</td>
+                            <td></td>
+                            <td>II</td>
+                            <td>II</td>
+                            <td>1</td>
+                        </tr>     
+                        
+                        <tr>
+                            <td>г.Ангарск, лицей №2</td>
+                            <td>8</td>
+                            <td>18,3</td>
+                            <td>50</td>
+                            <td>35</td>
+                            <td>35</td>
+                            <td>146</td>
+                            <td></td>
+                            <td></td>
+                            <td>II</td>
+                            <td>I</td>
+                            <td>III</td>
+                            <td>2</td>
+                        </tr>
+                       
+                    </table>
+
+
+                </p>
+</body>
+</html>
